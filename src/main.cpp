@@ -332,7 +332,7 @@ class $modify(PlayerObject) {
 		else PlayerObject::updateRotation(t);
 	}
 };
-
+/* 
 class $modify(EndLevelLayer) {
 	void customSetup() {
 		EndLevelLayer::customSetup();
@@ -356,7 +356,7 @@ class $modify(EndLevelLayer) {
 		}
 	}
 };
-
+*/
 Patch* patch;
 
 void toggleMod(bool disable) {
